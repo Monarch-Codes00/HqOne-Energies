@@ -26,6 +26,9 @@ function Hero(){
 <video className='videoTag' autoPlay loop muted style={{width:"100%", }}>
     <source src={hvid} type='video/mp4' />
 </video>
+<div className="text1st" >
+    <h3>WE ARE KNOWN FOR:</h3>
+</div>
 </div>
         </section>
         

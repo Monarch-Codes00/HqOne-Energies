@@ -16,13 +16,11 @@
 
 
 
-
-
-
-
-.hero-section{
-    
+.text1st{
+    font-family:'Courier New', Courier, monospace;
+    color: aliceblue;
+    margin-top: -580px;
+    margin-left: 100px;
+    /* font-weight: lighter; */
 }
-.videoTag{
 
-}
