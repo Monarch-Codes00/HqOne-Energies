@@ -1,5 +1,6 @@
 import React from "react";
 import hvid from '../assets/hero back vid.mp4'
+import whatsapp from "../assets/whats.png"
 
 
 function Hero(){
@@ -26,10 +27,20 @@ function Hero(){
 <video className='videoTag' autoPlay loop muted style={{width:"100%", }}>
     <source src={hvid} type='video/mp4' />
 </video>
-<div className="text1st" >
+<div className="text1st">
     <h3>WE ARE KNOWN FOR:</h3>
+
+    <p style={{fontWeight:"600", fontSize:"50px",marginTop:"0px" }}>Lorem ipsum dolor oluptatem vero ipsa repellendus.</p>
 </div>
+<div className="hero-button-hold">
+  <button className="red-to-white"> VISIT OUR SHOP</button>
+    <button  className="tan-to-white">REQUEST A QUOTE </button>   
+    </div> 
+    <button className="whatsappBtn">WhatsApp us</button>
 </div>
+       
+        
+        
         </section>
         
         
